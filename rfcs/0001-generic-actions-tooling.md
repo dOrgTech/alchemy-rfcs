@@ -39,10 +39,10 @@ I view this as hyper urgent, as the main users of Alchemy (dOrg, dxDAO, NecDAO, 
 
 ## Terminology
 
-GA Creator: TODO UI for deploying new generic action contracts (from known GAs)
-GA Factory: TODO factory contract that spawns new generic action contracts (needed until arc-hives is live)
-GA Designer: TODO UI for defining new generic actions
-GA Registry: TODO on-chain registry of Generic Action JSONs, managed by the Alchemy DAO
+GA Creator: TODO UI for deploying new generic action contracts (from known GAs)  
+GA Factory: TODO factory contract that spawns new generic action contracts (needed until arc-hives is live)  
+GA Designer: TODO UI for defining new generic actions  
+GA Registry: TODO on-chain registry of Generic Action JSONs, managed by the Alchemy DAO  
 
 ## Detailed Design
 
