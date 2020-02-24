@@ -23,7 +23,7 @@ Adding GA plugins within Alchemy currently has the following problems:
 - No UI for configuring & deploying a new GA plugin contract, must be done by a skilled programmer.
 - No UI for knowing what types of GAs Alchemy supports (ENS Registrar, Uniswap, etc).
 - No UI for creating new types of GAs that Alchemy can support (Compound, etc).
-- - Must be PR'd into Alchemy for them to be usable.
+  - Must be PR'd into Alchemy for them to be usable.
 - Complex UI for adding a GA plugin to the DAO via the plugin manager.
 - Subgraph does not pickup on newly deployed GA plugin contracts.
 
