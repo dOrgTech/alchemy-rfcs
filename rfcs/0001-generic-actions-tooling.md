@@ -39,17 +39,15 @@ I view this as hyper urgent, as the main users of Alchemy (dOrg, dxDAO, NecDAO, 
 
 ## Terminology
 
-GA Creator: TODO UI for deploying new generic action contracts (from known GAs)  
-GA Factory: TODO factory contract that spawns new generic action contracts (needed until arc-hives is live)  
-GA Designer: TODO UI for defining new generic actions  
-GA Registry: TODO on-chain registry of Generic Action JSONs, managed by the Alchemy DAO  
+**GA Creator**: UI for configuring & deploying new generic action plugins from within Alchemy. Deployment via the UI will (1) deploy a new GA plugin contract via the ***GA Factory*** and (2) call create a proposal in the DAO's Plugin Manager to add the new GA plugin.  
+**GA Factory**: Contract factory that spawns new GA plugin contracts. This is needed until Arc-Hives is live.  
+**GA Designer**: UI for defining new generic actions (Compound, Uniswap, Moloch, etc). The UI will be a front-end for defining [GA JSON files](https://github.com/daostack/alchemy/tree/dev/src/genericSchemeRegistry/schemes), and proposing them to the ***GA Registry***.  
+**GA Registry**: On-chain registry of GA JSONs. This registry should be managed by a DAO made up by the stake-holders of Alchemy. The Alchemy DAO.  
+**Known GA**: A Generic Action that's registered in the registry.  
 
 ## Detailed Design
 
-This is the main section of the RFC. What does the proposal include? What are
-the proposed interfaces/APIs? How are different affected parties, such as users,
-developers or node operators affected by the change and how are they going to
-use it?
+TODO: detail each user flow in the "Goals & Motivations" section, and illustrate each change needed in the stack.  
 
 ## Compatibility
 
